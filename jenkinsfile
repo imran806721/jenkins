@@ -19,16 +19,15 @@ pipeline {
                      """
                    }
             }
-            }
         }
         stage('Deploy') {
             steps {
                 scripts {
                     sh """
-                        echo "Deploying...."
-                     """
-                }
-            }
-        }
+                       echo "Deploying"
+                       """
+                    }
+            } 
+        }       
     }
 }
