@@ -8,7 +8,7 @@ pipeline {
     environment {
         COURSE = "Jenkins"
     }
-    optional {
+    options {
         disableConcurrentBuilds()
         timeout(time: 15, unit: 'MINUTES')
     }
