@@ -15,7 +15,7 @@ pipeline {
             steps {
                scripts {
                     sh """
-                        echo "Building" 
+                        echo "Testing" 
                      """
                    }
             }
